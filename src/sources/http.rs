@@ -64,10 +64,15 @@ where
         "https://ifconfig.io/ip",
         "https://ipecho.net/plain",
         "https://checkip.amazonaws.com/",
-        "https://ident.me/",
         "http://whatismyip.akamai.com/",
         "https://myip.dnsomatic.com/",
         "https://diagnostic.opendns.com/myip",
+        "https://v4.ident.me/",
+        "https://v6.ident.me/",
+        "https://api4.ipify.org/",
+        "https://api6.ipify.org/",
+        "https://ipv4.wtfismyip.com/text",
+        "https://ipv6.wtfismyip.com/text",
     ]
     .iter()
     .map(|x| HTTPSource::source(*x))
